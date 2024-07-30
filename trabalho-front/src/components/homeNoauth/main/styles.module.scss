@@ -1,0 +1,112 @@
+.main {
+    height: 50%;
+    .row{ 
+        padding-top: 5%;
+        color: #000000;
+        width: 100%;
+        height: 100%;
+        
+        padding-bottom: 2%;
+
+        
+        
+        .col1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                border-radius: 500px;
+                width: 50%;
+            }
+
+
+
+        }
+
+        .col2{
+            text-align: center;
+            h2{
+                font-family: 'Courier Prime', monospace;
+                font-weight: 800;    
+            }
+
+            .row2{
+                padding-top: 4%;
+                font-family: 'Courier Prime', monospace;
+                font-weight: 800;   
+                font-size: larger;
+                width: max-content;
+                
+                .col3{
+                    padding: 3%;
+                    height: 20rem;
+                    transition: 1s;
+                    
+                    
+
+                    .prop{
+                        font-size: 25px;
+                    }
+
+                    p{
+                        margin: 3%;
+                        transition: 1;
+                    }
+
+                    .button{
+                        margin-top: 6%;
+                        height: 4rem;
+                        width: 10rem;
+                        border: 3px solid black;
+                        font-size: medium;
+                        font-family: 'Courier Prime', monospace;
+                        font-weight: 800
+                    }
+
+                    &:hover{
+                        scale: 1.2;
+                        border: none;
+                        transition: 1s;
+
+
+                    }  
+
+                }
+
+
+                .col4{
+                    padding: 3%;
+                    height: 20rem;
+                    transition: 1s;
+                    p{
+                        margin: 3%;
+                    }
+                    .prop{
+                        font-size: 25px;
+                    }
+
+
+                    .button{
+                        margin-top: 16%;
+                        height: 4rem;
+                        width: 10rem;
+                        border: 3px solid black;
+                        font-family: 'Courier Prime', monospace;
+                        font-weight: 800
+                    }
+
+                    &:hover{
+                        scale: 1.2;
+                        border: none;
+                        transition: 1s;
+
+
+                    }  
+
+                }
+
+
+            }
+        }
+    }
+}

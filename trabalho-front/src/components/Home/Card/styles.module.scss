@@ -1,0 +1,36 @@
+.cardcar{
+    background-color: rgb(95, 97, 98);
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    border-radius: 20px;
+    height: 20%;
+    width: 20%;
+
+    .info{
+        padding: 3%;
+        .model{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1%;
+        }
+        .brand{
+            display: flex;
+            align-items: center;
+            padding: 1%;
+        }
+        .price{
+            display: flex;
+            padding: 1%;
+        }
+    }
+    .buttonbuy{
+        display: flex;
+        justify-content: center;
+        
+    }
+   
+    
+}

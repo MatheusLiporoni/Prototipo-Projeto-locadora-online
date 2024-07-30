@@ -1,0 +1,75 @@
+.main{
+    height: 100%;
+    width: 100%;
+
+}
+
+.formcontainer {
+    text-align: center;
+    background-color: #d93d04;
+    padding-top: 5%;
+    color: rgb(8, 8, 8);
+    height: 80rem;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 800;    
+
+    h1{
+        font-size: 60px;
+        font-weight: bolder;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .form1{
+        width: 50%;
+        background-color: #e5ccaa;
+        padding: 6%;
+
+
+        *{
+            margin-bottom: 1rem;
+        }
+        
+        label{
+            padding: 1%;
+            font-size: larger;
+        }
+        
+        input{
+            overflow: none;
+            border-radius: 13%;
+
+        }
+        .fileLabel {
+            display: inline-block;
+            background-color: #000000;
+            color: #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+          }
+          
+          .fileLabel:hover {
+            background-color: #495057;
+          }
+          
+          .fileInput {
+            display: none;
+          }
+        .button{
+            margin-top: 16%;
+            height: 4rem;
+            width: 10rem;
+            border: 3px solid black;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 800
+        }
+        
+    }
+}

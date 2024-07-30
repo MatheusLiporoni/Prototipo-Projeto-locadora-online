@@ -1,0 +1,87 @@
+
+.header{
+    height: 11vh;
+    background-color: #d93d04;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+
+    .link{
+        text-decoration: none;
+        color: #000000;
+
+    }
+
+    
+    h2{
+        font-family: 'Courier Prime', monospace;
+        font-weight: 800;
+        font-size: 25px;
+        transition: 1s;
+        
+
+
+        &:hover{
+            border-bottom: 2px solid black;
+            font-size: 30px;
+            transition: 1s;
+            cursor: pointer;
+
+      
+    }
+    }
+
+   
+    
+
+    .inicio{
+        margin-right: 16rem;
+    }
+
+    .search{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        width: 16rem;
+        height: 50px;
+        border-radius: 20px;
+        cursor: pointer;
+        
+        
+        
+        
+
+        input {
+            height: 30px;
+            width: 83%;
+            border: 0;
+            outline: 0;
+            border-radius: 10px;
+            padding-left: 4px;
+            cursor: pointer;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 800;
+            
+        }
+
+        
+       
+        i{
+            background-image: url("../../../../public/icone-de-pesquisa-lupa-em-fundo-escuro-700-121180308.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 50px;
+            width: 45px;
+            border-radius: 10px 20px 20px 10px;
+            
+            
+        }
+    }
+
+
+
+
+}

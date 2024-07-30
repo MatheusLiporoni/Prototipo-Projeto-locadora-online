@@ -1,0 +1,62 @@
+
+.main{
+    height: 100%;
+    width: 100%;
+
+}
+
+.formcontainer {
+    text-align: center;
+    background-color: #d93d04;
+    padding-top: 5%;
+    color: rgb(8, 8, 8);
+    height: 80rem;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 800;    
+
+    h1{
+        font-size: 60px;
+        font-weight: bolder;
+        
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10%;
+
+    }
+    
+    .form1{
+        width: 50%;
+        background-color: #e5ccaa;
+        padding: 6%;
+        border-radius: 20%;
+        box-shadow: 10px 5px 5px black;
+
+
+        *{
+            margin-bottom: 1rem;
+        }
+        
+        label{
+            padding: 1%;
+            font-size: larger;
+        }
+        
+        input{
+            overflow: none;
+            border-radius: 13%;
+
+        }
+        .button{
+            margin-top: 8%;
+            height: 4rem;
+            width: 10rem;
+            border: 3px solid black;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 800
+        }
+        
+    }
+}
